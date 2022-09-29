@@ -23,7 +23,7 @@ function addClicker(e) {
 function autoClick(element) {
 	if(element.classList.contains("auto-clicker-target")) {
 		element.click();
-		setTimeout(function(){ autoClick(element); };
+		setTimeout(function(){ autoClick(element);
 	}
 }
 document.body.addEventListener("click", addClicker, 0);
